@@ -2,7 +2,7 @@
   font-family: 'Raleway', sans-serif; }
 
 .bg-faded {
-  background-color: #c8cfd0; }
+  background-color: #c8cfd0 !important; }
 
 .content {
   min-height: 300px; }
@@ -15,16 +15,22 @@
   color: #C8CFD0;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  font-size: 6em;
+  font-size: 4em;
   text-transform: uppercase;
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 1em 2em; }
+  padding-top: 1em; }
 
-@media (max-width: 992px) {
+@media (min-width: 576px) {
   .headline {
-    font-size: 4em; } }
+    font-size: 6em;
+    padding-top: .5em; } }
+
+@media (min-width: 992px) {
+  .headline {
+    font-size: 6em;
+    padding: 1em 1em; } }
 
 #picture {
   margin: 0 auto;
@@ -39,6 +45,7 @@ h1 {
 
 #about {
   margin-top: -127px;
+  padding-top: 127px;
   background: #b1d0ca; }
 
 #projects {
