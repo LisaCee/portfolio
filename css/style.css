@@ -1,0 +1,55 @@
+.navbar {
+  font-family: 'Raleway', sans-serif; }
+
+.bg-faded {
+  background-color: #c8cfd0; }
+
+.content {
+  min-height: 300px; }
+
+.jumbotron {
+  background: #2C6E7C;
+  height: 25em; }
+
+.headline {
+  color: #C8CFD0;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  text-transform: uppercase;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1em 2em; }
+
+@media (max-width: 992px) {
+  .headline {
+    font-size: 4em; } }
+
+#picture {
+  margin: 0 auto;
+  margin-top: -125px;
+  z-index: 1;
+  border: 10px solid #2C6E7C; }
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: white; }
+
+#about {
+  margin-top: -127px;
+  background: #b1d0ca; }
+
+#projects {
+  background: #dddddd; }
+
+#elements {
+  background: #62b0a5; }
+
+#contact {
+  background: #2C6E7C; }
+
+.footer {
+  background: #dddddd;
+  color: black; }
