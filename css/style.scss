@@ -58,30 +58,50 @@ $test: #1B798F;
 h1 {
 	font-family: "Raleway", sans-serif;
 	text-transform: uppercase;
-	color: white;
+	padding-top: 25px;
 }
 
 #about {
 	margin-top: -127px;
 	padding-top: 127px;
 	background: $lt-blue;
+
+	p{
+		font-size: 1em;
+		font-family: "Raleway", sans-serif;
+		text-align: justify;
+	}
+
+	h1 {
+		color: $jumbotron;
+	}
 }
 
 #projects {
 	background: $silver;
+
+	h1 {
+		color: $jumbotron;
+	}
 }
 
 #elements {
 	background: $seafoam;
+
+	h1 {
+		color: $silver;
+	}
 }
 
 #contact {
 	background: $jumbotron;
+	h1 {
+		color: $lt-blue;
+	}
 }
 
 .footer {
 	background: $silver;
 	color: black;
 }
-
 

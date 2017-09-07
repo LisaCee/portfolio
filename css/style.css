@@ -41,21 +41,33 @@
 h1 {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  color: white; }
+  padding-top: 25px; }
 
 #about {
   margin-top: -127px;
   padding-top: 127px;
   background: #b1d0ca; }
+  #about p {
+    font-size: 1em;
+    font-family: "Raleway", sans-serif;
+    text-align: justify; }
+  #about h1 {
+    color: #2C6E7C; }
 
 #projects {
   background: #dddddd; }
+  #projects h1 {
+    color: #2C6E7C; }
 
 #elements {
   background: #62b0a5; }
+  #elements h1 {
+    color: #dddddd; }
 
 #contact {
   background: #2C6E7C; }
+  #contact h1 {
+    color: #b1d0ca; }
 
 .footer {
   background: #dddddd;
