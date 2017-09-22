@@ -59,6 +59,10 @@ h1 {
   #projects h1 {
     color: #2C6E7C; }
 
+#projects a {
+  text-decoration: none;
+}
+
 #elements {
   background: #62b0a5; }
   #elements h1 {
