@@ -1,0 +1,109 @@
+$nav : #D7D7D7;
+$jumbotron: #2C6E7C;
+$lt-blue: #b1d0ca;
+$silver: #dddddd;
+$seafoam: #62b0a5;
+$test: #1B798F;
+
+.navbar {
+	font-family: 'Raleway', sans-serif;
+}
+
+.bg-faded {
+	background-color: $nav !important;
+}
+
+.content {
+	min-height: 300px;
+}
+
+.jumbotron {
+	background: $jumbotron !important;
+	height: 25em;
+}
+
+.headline {
+	color: #C8CFD0;
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+	font-size: 4em;
+	text-transform: uppercase;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding-top: 1em;
+}
+
+@media (min-width: 576px){
+	.headline {
+		font-size: 6em;
+		padding-top: .5em;
+	}
+}
+
+@media (min-width: 992px) {
+	.headline {
+		font-size: 6em;
+		padding: 1em 1em;
+	}
+}
+
+#picture {
+	margin: 0 auto;
+	margin-top: -125px;
+	z-index: 1;
+	border: 10px solid #2C6E7C;
+}
+
+h1 {
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	padding-top: 25px;
+}
+
+#about {
+	margin-top: -127px;
+	padding-top: 127px;
+	background: $lt-blue;
+
+	p{
+		font-size: 1em;
+		font-family: "Raleway", sans-serif;
+		text-align: justify;
+	}
+
+	h1 {
+		color: $jumbotron;
+	}
+}
+
+#projects {
+	background: $silver;
+
+	h1 {
+		color: $jumbotron;
+	}
+}
+
+#skills {
+	background: $seafoam;
+
+	h1 {
+		color: $silver;
+	}
+}
+
+#contact {
+	background: $jumbotron;
+	h1 {
+		color: $lt-blue;
+	}
+}
+
+.footer {
+	background: $silver;
+	color: black;
+}
+
+
+
