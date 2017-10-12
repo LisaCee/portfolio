@@ -1,4 +1,4 @@
-$nav : #c8cfd0;
+$nav : #D7D7D7;
 $jumbotron: #2C6E7C;
 $lt-blue: #b1d0ca;
 $silver: #dddddd;
@@ -18,7 +18,7 @@ $test: #1B798F;
 }
 
 .jumbotron {
-	background: $jumbotron;
+	background: $jumbotron !important;
 	height: 25em;
 }
 
@@ -85,7 +85,7 @@ h1 {
 	}
 }
 
-#elements {
+#skills {
 	background: $seafoam;
 
 	h1 {
@@ -104,4 +104,6 @@ h1 {
 	background: $silver;
 	color: black;
 }
+
+
 

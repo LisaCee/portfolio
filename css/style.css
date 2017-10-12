@@ -2,13 +2,14 @@
   font-family: 'Raleway', sans-serif; }
 
 .bg-faded {
-  background-color: #c8cfd0 !important; }
+  background-color: #D7D7D7 !important; }
 
 .content {
-  min-height: 300px; }
+  min-height: 300px;
+  padding-bottom: 50px; }
 
 .jumbotron {
-  background: #2C6E7C;
+  background: #2C6E7C !important;
   height: 25em; }
 
 .headline {
@@ -38,10 +39,11 @@
   z-index: 1;
   border: 10px solid #2C6E7C; }
 
-h1 {
+.content h1 {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  padding-top: 25px; }
+  padding-top: 25px;
+  text-decoration: underline; }
 
 #about {
   margin-top: -127px;
@@ -59,14 +61,21 @@ h1 {
   #projects h1 {
     color: #2C6E7C; }
 
-#projects a {
-  text-decoration: none;
-}
-
-#elements {
+#skills {
   background: #62b0a5; }
-  #elements h1 {
+  #skills h1 {
     color: #dddddd; }
+
+i {
+  font-size: 2em;
+  color: #606363;
+  text-align: center;
+  display: block;
+}    
+
+i:hover {
+  color: #D7D7D7;
+}
 
 #contact {
   background: #2C6E7C; }
@@ -76,3 +85,12 @@ h1 {
 .footer {
   background: #dddddd;
   color: black; }
+
+h4 {
+  text-align: center;
+}  
+
+.fa {
+  color: white;
+}
+
